@@ -1,0 +1,43 @@
+    1  sudo cp /etc/yum.repos.d/* /etc/yum.repos.d_backup
+    2  sudo mkdir /etc/yum.repos.d_backup
+    3  sudo cp /etc/yum.repos.d/* /etc/yum.repos.d_backup
+    4  sudo curl -o /etc/yum.repos.d/fedora.repo http://mirrors.aliyun.com/repo/fedora.repo
+    5  sudo yum clean all
+    6  sudo yum makecache 
+    7  vim
+    8  dufdusssssdfdsfdsf
+    9  sudosu
+   10  sudosudosssudo
+   11  sudo yun install sshe
+   12  sudo dnf update
+   13  rpm -qa
+   14  rpm -qa |grep ssh
+   15  sudo systemctl status sshd
+   16  sudo systemctl enable sshd
+   17  sudo systemctl start sshd
+   18  sudo systemctl status sshd
+   19  sudo ss -lt
+   20  ip addr
+   21  sudo dnf install "C Development Tools and Libraries" "Development Tools"
+   22  sudo dnf grour install "C Development Tools and Libraries" "Development Tools"
+   23  sudo dnf group install "C Development Tools and Libraries" "Development Tools"
+   24  ls
+   25  sudo dnf install cmake
+   26  mkdir code
+   27  cd code
+   28  touch c1.cc
+   29  vim c1.cc 
+   30  g++ c1.cc 
+   31  ls
+   32  ./a.out 
+   33  gdb -v
+   34  gcc -v
+   35  dnf search gtk
+   36  dnf search gtk4-dev
+   37   sudo dnf install gtk4-devel gtk4-devel-tools
+   38  vim cc-gtk-1.cc
+   39  g++ cc-gtk-1.cc $(pkg-config gtk4 --cflags --libs) -o gtk_test1
+   40  vim cc-gtk-1.cc
+   41  g++ cc-gtk-1.cc $(pkg-config gtk4 --cflags --libs) -o gtk_test1
+   42  ./gtk_test1 
+   43  history >> mingling.txt

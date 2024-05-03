@@ -1,0 +1,172 @@
+Build started at 2024-05-03T11:29:57.983463
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.4.0
+Source dir: /home/lcz/code/gtk2
+Build dir: /home/lcz/code/gtk2/builddir
+Build type: native build
+Project name: exp2
+Project version: undefined
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+c++ (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)
+Copyright © 2024 Free Software Foundation, Inc.
+本程序是自由软件；请参看源代码的版权声明。本软件没有任何担保；
+包括没有适销性和某一专用目的下的适用性担保。
+-----------
+Running command: c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 0
+stdout:
+GNU ld version 2.41-34.fc40
+Copyright (C) 2023 Free Software Foundation, Inc.
+这个程序是自由软件；您可以遵循GNU 通用公共授权版本 3 或
+(您自行选择的) 稍后版本以再次散布它。
+这个程序完全没有任何担保。
+-----------
+stderr:
+collect2 版本 14.0.1 20240411 (Red Hat 14.0.1-0)
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsc9OkV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. --version -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+-----------
+Sanity testing C++ compiler: ccache c++
+Is cross compiler: False.
+Sanity check compiler command line: ccache c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/lcz/code/gtk2/builddir/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: ccache c++ (gcc 14.0.1 "c++ (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)")
+C++ linker for the host machine: c++ ld.bfd 2.41-34
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar version 2.41-34.fc40
+Copyright (C) 2023 Free Software Foundation, Inc.
+这个程序是自由软件；您可以遵循 GNU 通用公共授权版本 3 或
+(您自行选择的) 稍后版本再发布它。
+这个程序不含任何担保。
+-----------
+-----------
+Detecting compiler via: `c++ --version` -> 0
+stdout:
+c++ (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)
+Copyright © 2024 Free Software Foundation, Inc.
+本程序是自由软件；请参看源代码的版权声明。本软件没有任何担保；
+包括没有适销性和某一专用目的下的适用性担保。
+-----------
+Running command: c++ -E -dM -
+-----
+-----------
+Detecting linker via: `c++ -Wl,--version` -> 0
+stdout:
+GNU ld version 2.41-34.fc40
+Copyright (C) 2023 Free Software Foundation, Inc.
+这个程序是自由软件；您可以遵循GNU 通用公共授权版本 3 或
+(您自行选择的) 稍后版本以再次散布它。
+这个程序完全没有任何担保。
+-----------
+stderr:
+collect2 版本 14.0.1 20240411 (Red Hat 14.0.1-0)
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJgBdDD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/14/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/14 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/14/../../.. --version -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/14/crtend.o /usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/crtn.o
+-----------
+Sanity testing C++ compiler: ccache c++
+Is cross compiler: False.
+Sanity check compiler command line: ccache c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/lcz/code/gtk2/builddir/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: ccache c++ (gcc 14.0.1 "c++ (GCC) 14.0.1 20240411 (Red Hat 14.0.1-0)")
+C++ linker for the build machine: c++ ld.bfd 2.41-34
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar version 2.41-34.fc40
+Copyright (C) 2023 Free Software Foundation, Inc.
+这个程序是自由软件；您可以遵循 GNU 通用公共授权版本 3 或
+(您自行选择的) 稍后版本再发布它。
+这个程序不含任何担保。
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 2.1.0
+Determining dependency 'gtk4' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gtk4` -> 0
+stdout:
+4.14.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gtk4` -> 0
+stdout:
+-I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -mfpmath=sse -msse -msse2 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/webp -I/usr/include/libxml2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -DWITH_GZFILEOP -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk4` -> 0
+stdout:
+-L/usr/lib64 -lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lvulkan -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk4` -> 0
+stdout:
+-lgtk-4 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -lgdk_pixbuf-2.0 -lcairo-gobject -lcairo -lvulkan -lgraphene-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Running compile:
+Working directory:  /home/lcz/code/gtk2/builddir/meson-private/tmpru5kzsmc
+Code:
+ 
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `c++ /home/lcz/code/gtk2/builddir/meson-private/tmpru5kzsmc/testfile.cpp -o /home/lcz/code/gtk2/builddir/meson-private/tmpru5kzsmc/output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/lcz/code/gtk2/builddir/meson-private/tmpp3ubkgzn
+Code:
+ 
+-----------
+Command line: `c++ /home/lcz/code/gtk2/builddir/meson-private/tmpp3ubkgzn/testfile.cpp -o /home/lcz/code/gtk2/builddir/meson-private/tmpp3ubkgzn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-redhat-linux/14/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/14/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../x86_64-redhat-linux/14/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../lib64/:/lib/x86_64-redhat-linux/14/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/14/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/14/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency gtk4 found: YES 4.14.3
+Build targets in project: 1
+
+Found ninja-1.11.1 at /usr/bin/ninja

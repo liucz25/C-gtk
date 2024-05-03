@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/lcz/code/gtk2/builddir",
+    "command": "ccache c++ -Iexp2.p -I. -I.. -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/cairo -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/fribidi -I/usr/include/webp -I/usr/include/libxml2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_GLIBCXX_ASSERTIONS=1 -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -mfpmath=sse -msse -msse2 -DWITH_GZFILEOP -pthread -MD -MQ exp2.p/cc-gtk-2.cc.o -MF exp2.p/cc-gtk-2.cc.o.d -o exp2.p/cc-gtk-2.cc.o -c ../cc-gtk-2.cc",
+    "file": "../cc-gtk-2.cc",
+    "output": "exp2.p/cc-gtk-2.cc.o"
+  }
+]

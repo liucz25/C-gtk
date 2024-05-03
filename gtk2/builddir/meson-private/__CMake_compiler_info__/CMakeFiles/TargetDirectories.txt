@@ -1,0 +1,2 @@
+/home/lcz/code/gtk2/builddir/meson-private/__CMake_compiler_info__/CMakeFiles/edit_cache.dir
+/home/lcz/code/gtk2/builddir/meson-private/__CMake_compiler_info__/CMakeFiles/rebuild_cache.dir

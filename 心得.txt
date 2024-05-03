@@ -1,0 +1,13 @@
+fedora 的默认网络为10.0.2.15  不在同一网段
+默认安装了openssh，但未开启
+需要 sudo systemctl enable sshd  启动开机自启
+                                  start       启动
+换国内源 可以百度搜索 curl  。。。。
+
+rpm 包管理器只安装单个包
+yum 可安装依赖
+dnf   是yum的升级版本
+
+C语言开发环境
+sudo dnf group install "C Development Tools and Libraies" "Development Tools"
+注意有 group
