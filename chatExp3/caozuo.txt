@@ -1,0 +1,288 @@
+    1  sudo cp /etc/yum.repos.d/* /etc/yum.repos.d_backup
+    2  sudo mkdir /etc/yum.repos.d_backup
+    3  sudo cp /etc/yum.repos.d/* /etc/yum.repos.d_backup
+    4  sudo curl -o /etc/yum.repos.d/fedora.repo http://mirrors.aliyun.com/repo/fedora.repo
+    5  sudo yum clean all
+    6  sudo yum makecache 
+    7  vim
+    8  dufdusssssdfdsfdsf
+    9  sudosu
+   10  sudosudosssudo
+   11  sudo yun install sshe
+   12  cd code/gtk3/
+   13  ls
+   14  cat about.cc 
+   15  sudo dnf install clang clang-tools-extra lldb
+   16  sudo dnf update
+   17  rpm -qa
+   18  rpm -qa |grep ssh
+   19  sudo systemctl status sshd
+   20  sudo systemctl enable sshd
+   21  sudo systemctl start sshd
+   22  sudo systemctl status sshd
+   23  sudo ss -lt
+   24  ip addr
+   25  sudo dnf install "C Development Tools and Libraries" "Development Tools"
+   26  sudo dnf grour install "C Development Tools and Libraries" "Development Tools"
+   27  sudo dnf group install "C Development Tools and Libraries" "Development Tools"
+   28  ls
+   29  sudo dnf install cmake
+   30  mkdir code
+   31  cd code
+   32  touch c1.cc
+   33  vim c1.cc 
+   34  g++ c1.cc 
+   35  ls
+   36  ./a.out 
+   37  gdb -v
+   38  gcc -v
+   39  dnf search gtk
+   40  dnf search gtk4-dev
+   41   sudo dnf install gtk4-devel gtk4-devel-tools
+   42  vim cc-gtk-1.cc
+   43  g++ cc-gtk-1.cc $(pkg-config gtk4 --cflags --libs) -o gtk_test1
+   44  vim cc-gtk-1.cc
+   45  g++ cc-gtk-1.cc $(pkg-config gtk4 --cflags --libs) -o gtk_test1
+   46  ./gtk_test1 
+   47  history >> mingling.txt
+   48  cat mingling.txt 
+   49  ls
+   50  ./gtk_test1 
+   51  cp cc-gtk-1.cc cc-gtk-2.cc 
+   52  vim cc-gtk-2.cc 
+   53  sudo dnf install ninja-build meson
+   54  ls
+   55  mkdir gtk2
+   56  mv cc-gtk-2.cc gtk2/
+   57  ls
+   58  mkdir c1
+   59  mv c1.cc c1
+   60  ls
+   61  mv a.out c1/
+   62  ls
+   63  mkdir gtk1
+   64  mv cc-gtk-1.cc gtk1/
+   65  mv gtk_test1 gtk1/
+   66  ls
+   67  cd gtk2
+   68  ls
+   69  vim meson.build
+   70  ls
+   71  vim meson.build
+   72  meson setup builddir
+   73  vim meson.build
+   74  meson setup builddir
+   75  ls
+   76  vim meson.build
+   77  meson setup builddir
+   78  ls
+   79  cd builddir/
+   80  ls
+   81   cd ..
+   82  ninja -C ./builddir/
+   83  ls
+   84  ls builddir/
+   85  ./builddir/exp2
+   86  cd ..
+   87  mkdir gtk3
+   88  cp ./gtk2/* gtk3/
+   89  cp -r ./gtk2/* gtk3/
+   90  cd gtk3/
+   91  ls
+   92  ./builddir/exp2
+   93  mv cc-gtk-2.cc main.cc
+   94  ls
+   95  vim about.cc
+   96  cim about.h
+   97  vim about.h
+   98  vim main.cc 
+   99  find
+  100  man find
+  101  mkdir src
+  102  mv *.cc src/
+  103  ls
+  104  mv *.h src/
+  105  find src -type f -iname '*.cc' > srcs
+  106  cat srcs
+  107  find src -type f -iname '*.h' > srcs
+  108  cat srcs
+  109  find src -type f -iname '*.cc' > srcs
+  110  find src -type f -iname '*.h' >> srcs
+  111  cat srcs
+  112  vim meson.build 
+  113  meson setup ./builddir/ --reconfigure
+  114  ninja -C ./builddir/
+  115  vim src/about.cc 
+  116  ninja -C ./builddir/
+  117  vim src/about.cc 
+  118  vim src/about.h
+  119  ninja -C ./builddir/
+  120  vim src/main.cc 
+  121  nano src/main.cc 
+  122  gedit src/main.cc 
+  123  ninja -C ./builddir/
+  124  gedit src/main.cc 
+  125  ninja -C ./builddir/
+  126  ls
+  127  ./builddir/exp2
+  128  gedit src/main.cc 
+  129  ninja -C ./builddir/
+  130  gedit src/main.cc 
+  131  ninja -C ./builddir/
+  132  gedit src/main.cc 
+  133  ninja -C ./builddir/
+  134  ./builddir/exp2
+  135  gedit src/main.cc 
+  136  gedit src/about.cc 
+  137  ninja -C ./builddir/
+  138  ./builddir/exp2
+  139  gedit src/main.cc 
+  140  gedit src/about.h 
+  141  ./builddir/exp2
+  142  ninja -C ./builddir/
+  143  ./builddir/exp2
+  144  ninja -C ./builddir/
+  145  ./builddir/exp2
+  146  cd ..
+  147  sudo dnf install codium
+  148  [200~sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg~
+  149  sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg~
+  150  sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+  151  printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+  152  sudo dnf install codium
+  153  sudo dnf install clang clang-tools-extra lldb
+  154  mkdir gtk4
+  155  cp -r gtk3/* gtk4/
+  156  cd gtk4
+  157  ls
+  158  code .
+  159  codium .
+  160  ls -al
+  161  cmake -v
+  162  ccmake -v
+  163  /home/lcz/code/gtk4/test/build/exp4
+  164  cmake --version
+  165  cd code/gtk4/
+  166  mkdir test
+  167  cd test
+  168  codium .
+  169  ls -alh
+  170  ip addr
+  171  sudo systemctl status sshd
+  172  ls
+  173  c
+  174  codium --install-extension codelldb-x86_64-linux.vsix 
+  175  cd chat-exp2/
+  176  ls
+  177  ninja ./build
+  178  ninja -C ./build
+  179  ./chatExp2
+  180  ./build/chatExp2
+  181  cd chat-exp1/
+  182  ls
+  183  gcc main.cc 
+  184  ls
+  185  ./a.out 
+  186  gcc main.cc 
+  187  ./a.out 
+  188  cp main.cc main1.cc 
+  189  gcc main.cc 
+  190  ./a.out 
+  191  gcc main.cc 
+  192  ./a.out 
+  193  cp main.cc main2.cc
+  194  gcc main.cc 
+  195  ./a.out 
+  196  gcc main.cc 
+  197  ./a.out 
+  198  cp main.cc main2-1.cc
+  199  gcc main.cc 
+  200  ./a.out 
+  201  cp main.cc main2-2.cc
+  202  cd ../chat-exp2/
+  203  ls
+  204  chmod +r getMainSrc.sh 
+  205  ls 
+  206  ls -al
+  207  chmod +x getMainSrc.sh 
+  208  ls -al
+  209  meson setup ./build
+  210  ./getMainSrc.sh 
+  211  ls
+  212  meson setup ./build --reconfigure 
+  213  ./getMainSrc.sh 
+  214  meson setup ./build --reconfigure 
+  215  cd chat-exp2/
+  216  ls
+  217  meson setup ./build --reconfigure 
+  218  ninja -C ./build/
+  219  clear
+  220  ninja -C ./build/
+  221  clear
+  222  ninja -C ./build/
+  223  clear
+  224  ninja -C ./build/
+  225  clear
+  226  ninja -C ./build/
+  227  clear
+  228  ninja -C ./build/
+  229  clear
+  230  ninja -C ./build/
+  231  clear
+  232  ninja -C ./build/
+  233  clear
+  234  ninja -C ./build/
+  235  clear
+  236  meson setup ./build --reconfigure 
+  237  ninja -C ./build/
+  238  ./build/chatExp2
+  239  ninja -C ./build/
+  240  ./build/chatExp2
+  241  ninja -C ./build/
+  242  ./build/chatExp2
+  243  ninja -C ./build/
+  244  ./build/chatExp2
+  245  clear
+  246  ninja -C ./build/
+  247  ./build/chatExp2
+  248  ninja -C ./build/
+  249  ./build/chatExp2
+  250  ninja -C ./build/
+  251  ./build/chatExp2
+  252  ninja -C ./build/
+  253  ./build/chatExp2
+  254  ninja -C ./build/
+  255  ./build/chatExp2
+  256  ninja -C ./build/
+  257  ./build/chatExp2
+  258  cd ../chatExp3/
+  259  ls
+  260  meson setup ./build --reconfigure 
+  261  ninja -C ./build/
+  262  ./build/chatExp3
+  263  ./build/chatExp2
+  264  ninja -C ./build/
+  265  clear
+  266  ninja -C ./build/
+  267  clear
+  268  ninja -C ./build/
+  269  clear
+  270  ninja -C ./build/
+  271  clear
+  272  ninja -C ./build/
+  273  ./build/chatExp2
+  274  ninja -C ./build/
+  275  ./build/chatExp2
+  276  ninja -C ./build/
+  277  ./build/chatExp2
+  278  ninja -C ./build/
+  279  ./build/chatExp2
+  280  ninja -C ./build/
+  281  ./build/chatExp2
+  282  ninja -C ./build/
+  283  ./build/chatExp2
+  284  ninja -C ./build/
+  285  ./build/chatExp2
+  286  ninja -C ./build/
+  287  ./build/chatExp2
+  288  history >caozuo.txt

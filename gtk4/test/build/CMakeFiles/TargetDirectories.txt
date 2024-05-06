@@ -1,0 +1,3 @@
+/home/lcz/code/gtk4/test/build/CMakeFiles/exp4.dir
+/home/lcz/code/gtk4/test/build/CMakeFiles/edit_cache.dir
+/home/lcz/code/gtk4/test/build/CMakeFiles/rebuild_cache.dir

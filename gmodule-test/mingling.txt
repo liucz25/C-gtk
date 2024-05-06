@@ -1,0 +1,5 @@
+gcc ./toollib.cc -fPIC -shared -o toollib.so
+
+gcc ./main.cc -o main `pkg-config --cflags --libs gmodule-2.0`
+
+./main
